@@ -1,0 +1,24 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "tiktokeventsdk"
+  ],
+  "ios": {
+    "iosModuleName": "TiktokEventSdk"
+  },
+  "android": {
+    "androidNamespace": [
+      "tiktokeventsdk"
+    ],
+    "androidCxxLibName": "TiktokEventSdk"
+  },
+  "autolinking": {
+    "TiktokEventSdk": {
+      "swift": "HybridTiktokEventSdk",
+      "kotlin": "HybridTiktokEventSdk"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
