@@ -2,6 +2,7 @@ buildscript {
   repositories {
     google()
     mavenCentral()
+    maven { url 'https://jitpack.io' }
   }
 
   dependencies {
@@ -134,7 +135,7 @@ dependencies {
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
-
+  implementation 'com.github.tiktok:tiktok-business-android-sdk:1.5.0'
   // Add a dependency on NitroModules
   implementation project(":react-native-nitro-modules")
 }
