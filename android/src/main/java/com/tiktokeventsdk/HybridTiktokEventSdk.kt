@@ -32,6 +32,7 @@ class HybridTiktokEventSdk: HybridTiktokEventSdkSpec() {
             }
 
         })
+        startTrack()
         return prs
     }
 
